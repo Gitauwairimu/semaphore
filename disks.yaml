@@ -1,6 +1,6 @@
 ---
 - name: Check Disk Space Usage
-  hosts: vagrant
+  hosts: vag
   tasks:
           - name: Disk usage from command module
             command: df -h
